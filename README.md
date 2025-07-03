@@ -1,5 +1,5 @@
 ## Project Description
-This project utilizes BERT's NLP to categorize complaint descriptions for the City of Austin, Texas and derive insights with those categories. Data was collected from BigQuery Public Datasets
+This project utilizes BERT's NLP to categorize complaint descriptions and expose the model in a dashboard interface that allows users to provide a complaint and see how it would be categorized for the City of Austin, Texas and derive insights with those categories. Data was collected from BigQuery Public Datasets
 
 ## Context
 Each record represents one of 387 unique complaints against a dataset containing 2 million complaints from the Austin, Texas Emergency Services Dispatch. Within each record the status of the complain, location, and critical time stamps are recoded.
@@ -14,6 +14,12 @@ Each record represents one of 387 unique complaints against a dataset containing
 
 I aimed to replicate various responsibilities of a Data Scientist in this project. Primarily the Collection of data in a cloud environment and pushing to a disparate Integrated Development Environment (IDE) that would best suit the project goals. Deepnote was chosen for it's compute capability (given the size of the data) as well as easily integrated elements (streamlit and Github).
 
+## Streamlit Integration
+After Packaging the model into a pickle file we exposed the model to a streamlit application so that any user can input their own natural language category and see how it should be categorized. In practical application this could be added to the web interface that intake personnel use as a suggestion tool to increase data quality on complaints processed. Below is  a screenshot of the Streamlit application before and after entering a category.
+
+![image](https://github.com/user-attachments/assets/785fd6ab-b200-4340-8e4a-dcfa9da6109f)
+
+![image](https://github.com/user-attachments/assets/7e368c6c-6b6f-4bda-b0a3-f8481af0d72e)
 ## Discussion
 Originally this project aimed to utilize all 387 complaint categories. The idea was to utilize Clustering on numerical aggregates to find similarities between each category. These aggregates were average distance from Downtown, average Days to Close, and Number of Complaints. 
 
@@ -56,3 +62,5 @@ Figure 3.
 
 ## Conclusion
 Considering the high degree of phone intake and the relatively comparable days to complete this along with the Spot 311 application are the best ways to submit a complaint for resolution. Furthermore, the City of Austin should prioritize these for resource allocation. 
+
+## 
