@@ -1,4 +1,4 @@
-To Access the notebook and Streamlit application for this project to try it yourself or see the method behind the madness follow the public notebook link below. You will be prompted to create a deepnote account but once in you can run the streamlit application mentioned in detail below.
+To Access the notebook and Streamlit application for this project to try it yourself or see the method behind the madness follow the public notebook link below. You will be prompted to create a deepnote account but once in you can run the streamlit application mentioned in detail below and see all of the source code.
 
 <a href="https://deepnote.com/workspace/Thebes-04bb199c-9f99-4f06-8d46-87b9a1a60fee/project/Austin-Complaints-85a12285-dd92-430d-b754-ab647bcbcd58/notebook/austinincidents-06677c1b7dd541628be07c979af7c892?utm_source=share-modal&utm_medium=product-shared-content&utm_campaign=notebook&utm_content=85a12285-dd92-430d-b754-ab647bcbcd58">Deepnote Notebook 🚀</a>
 
