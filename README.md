@@ -65,6 +65,6 @@ Figure 3.
 <img src= "assets/complaints_category.png" alt="alt" width=/>
 
 ## Conclusion
-Considering the high degree of phone intake and the relatively comparable days to complete this along with the Spot 311 application are the best ways to submit a complaint for resolution. Furthermore, the City of Austin should prioritize these for resource allocation. 
+Considering the high degree of phone intake and the relatively comparable days to complete - the Spot 311 application and over the phone are the best ways to submit a complaint for resolution. Furthermore, the City of Austin should prioritize these for resource allocation.
 
-## 
+Lastly, the capability for live inference on complaint categories would be of significant use to emergency services coordinators. 
